@@ -1,0 +1,89 @@
+{
+    "footer": {
+      "follow":"Follow Us",
+    "description": "We invest in quality and innovation to deliver the best services.",
+    "quickLinks": "Quick Links",
+    "help": "Help & Support",
+    "contact": "Contact Us",
+
+    "about": "About Us",
+    "products": "Products",
+    "home": "Home",
+
+    "faq": "FAQ",
+    "privacy": "Privacy Policy",
+    "terms": "Terms & Conditions",
+
+    "rights": "All rights reserved "
+  },
+   "FEATURES": {
+    "quality_title": "Exceptional Quality",
+    "quality_desc": "99.9% purity for gold and 99.9% for silver with guaranteed quality",
+
+    "reliability_title": "Certified Reliability",
+    "reliability_desc": "All our products are certified by the world’s leading refineries",
+
+    "experience_title": "Easy Experience",
+    "experience_desc": "Fast ordering with simple steps from purchase to delivery",
+
+    "investment_title": "Secure Investment",
+    "investment_desc": "Protect your wealth with precious metals as a safe long-term investment"
+  },
+  "products": {
+    "gold_bar_50g_999": "Gold Bar 50g - 999 Fine",
+    "silver_bar_100g_999": "Silver Bar 100g - 999 Fine",
+    "gold_bar_100g_24k": "Gold Bar 100g - 24K",
+    "gold_bar_1kg_24k": "Gold Bar 1kg - 24K",
+    "silver_bar_1kg_999": "Silver Bar 1kg - 999 Fine",
+    "gold_bar_50g_24k": "Gold Bar 50g - 24K",
+    "gold_bar_025g_24k": "Gold Bar 0.25g - 24K"
+  },
+  "currency": {
+    "EGP": "EGP"
+  },
+  "locale": {
+    "ar": "EN",
+    "en": "AR"
+  },
+  "TITLES":{
+    "home":"Home",
+    "gold alloys":"Gold Alloys",
+    "silver alloys":"Silver Alloys",
+    "who us":"Who Us",
+    "contact us":"Contact Us",
+    "discover collection":"Discover Collection",
+    "recent products":"Recent Products",
+    "why choose us":"Why Choose Us"
+  },
+"LABELS":{
+  "why_desc":"We offer high-quality and fully secure investment gold and silver alloys, because your trust is our priority",
+  "recent_desc":"Discover our latest additions of high-quality investment gold and silver alloys",
+  "DISCOVER":{
+    "gold":"Invest in high-quality genuine gold with transparent pricing",
+    "silver":"Invest in high-quality genuine silver with transparent pricing"
+  },
+  "WHO_US":{
+    "title":"Investment starts from purity",
+    "desc":"We are a specialized platform for selling gold and silver alloys at live market prices, offering a safe and reliable investment experience based on transparency and credibility. We simplify investment in precious metals for both beginners and professionals, with the ability to purchase at the lowest value and flexible payment options"
+  },
+  "SLIDER":{
+    "gold":"Invest in pure gold alloys with complete safety and the best live updated prices",
+    "gold_desc":"Easily and securely acquire 99.99% pure 24K gold alloys, with diverse purchasing options and bank-level protected storage plans. Enjoy live updated prices and a seamless, reliable investment experience",
+    "silver":"Invest in pure silver alloys with complete safety and the best live updated prices",
+    "silver_desc":"Easily and securely acquire 99.9% pure silver alloys, with diverse purchasing options and bank-level protected storage plans. Enjoy live updated prices and a seamless, reliable investment experience"
+  },
+  "FEATURES":{
+    "price":"Live updated gold and silver prices according to the global market",
+    "quilty":"Certified gold purity 99.99% • Investment alloys",
+    "best":"Price match guarantee • Best prices in the market",
+    "secure":"Secure storage available • Bank-level protection"
+  }
+},
+"BUTTONS":{
+  "create account":"Create Account" ,
+  "know more":"Know us",
+  "start investing":"Start investment",
+  "see all products":"See All Products"
+},
+"TOASTS":{}
+}

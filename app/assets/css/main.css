@@ -1,0 +1,119 @@
+@import "tailwindcss";
+@import "@nuxt/ui";
+
+@theme {
+ --color-main: rgba(226, 178, 104, 1);
+ --color-primary:rgba(51, 51, 51, 1);
+ --color-secondary: rgba(255, 255, 255, 1);
+ --color-text:black;
+ --color-bg-light: rgba(255, 247, 235, 1);
+ --color-bg:rgba(253, 245, 234, 0.5);
+ --color-light-red:rgba(255, 85, 85, 1);
+ --color-gray-dark:rgba(121, 127, 136, 1);
+--background-image-gold: linear-gradient(90deg, #E0AD5D 0%, #D38D20 100%);
+  --color-overlay: rgba(0, 0, 0, 0.6);
+  --font-ibm: "IBM Plex Sans", sans-serif;
+}
+
+.obj{
+  object-position: center;
+}
+.overlay{
+  background: linear-gradient(263.71deg, rgba(51, 51, 51, 0.8) 32.67%, rgba(226, 178, 104, 0.1) 100.26%);
+  position: absolute; 
+  width: 100%;
+  height: 100%;
+
+}
+.btn{
+  background: linear-gradient(90deg, #E0AD5D 0%, #D38D20 100%);
+  color: white;
+}
+@font-face {
+  font-display: swap;
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 200;
+  src: url('/fonts/IBM/IBM_Plex_Sans_Arabic/IBMPlexSansArabic-ExtraLight.ttf') format('woff2');
+}
+@font-face {
+  font-display: swap;
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: url('/fonts/IBM/IBM_Plex_Sans_Arabic/IBMPlexSansArabic-Light.ttf') format('woff2');
+}
+@font-face {
+  font-display: swap;
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/fonts/IBM/IBM_Plex_Sans_Arabic/IBMPlexSansArabic-Regular.ttf') format('woff2');
+}
+@font-face {
+  font-display: swap; 
+   font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 500;
+  src: url('/fonts/IBM/IBM_Plex_Sans_Arabic/IBMPlexSansArabic-Medium.ttf') format('woff2');
+}
+
+
+
+@font-face {
+  font-display: swap; 
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: url('/fonts/IBM/IBM_Plex_Sans_Arabic/IBMPlexSansArabic-SemiBold.ttf') format('woff2');
+}
+
+@font-face {
+  font-display: swap;
+    font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: url('/fonts/IBM/IBM_Plex_Sans_Arabic/IBMPlexSansArabic-Bold.ttf') format('woff2');
+}
+
+
+
+@layer base {
+  body {
+    @apply bg-[#fbfafc] text-text;
+    font-family: var(--font-ibm);
+  }
+
+  .font-ibm {
+    font-family: var(--font-ibm);
+  }
+  .icon {
+    @apply size-8;
+  }
+  button,NuxtLink{
+    @apply transition duration-500 ease-in-out cursor-pointer ;
+  }
+  .title{
+    @apply  text-2xl  md:text-3xl font-semibold;
+  }
+  
+}
+
+
+
+body::-webkit-scrollbar {
+  width: 3px;
+}
+
+body::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #515207;
+  border-radius: 9999px;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background: #515207;
+}
