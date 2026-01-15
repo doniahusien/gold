@@ -6,10 +6,13 @@
  --color-primary:rgba(51, 51, 51, 1);
  --color-secondary: rgba(255, 255, 255, 1);
  --color-text:black;
+ --color-graish:rgba(247, 248, 250, 1);
  --color-bg-light: rgba(255, 247, 235, 1);
  --color-bg:rgba(253, 245, 234, 0.5);
+ --color-lightten:rgba(255, 248, 240, 1);
  --color-light-red:rgba(255, 85, 85, 1);
  --color-gray-dark:rgba(121, 127, 136, 1);
+ --color-border:rgba(221, 221, 221, 1);
 --background-image-gold: linear-gradient(90deg, #E0AD5D 0%, #D38D20 100%);
   --color-overlay: rgba(0, 0, 0, 0.6);
   --font-ibm: "IBM Plex Sans", sans-serif;
@@ -79,6 +82,7 @@
 
 
 @layer base {
+  
   body {
     @apply bg-[#fbfafc] text-text;
     font-family: var(--font-ibm);

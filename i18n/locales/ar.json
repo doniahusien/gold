@@ -46,6 +46,7 @@
     "en": "AR"
   },
   "TITLES":{
+    "new":"الجديدة",
     "home": "الرئيسية",
     "gold alloys": "سبائك الذهب",
     "silver alloys": "سبائك الفضة",
@@ -53,9 +54,20 @@
     "contact us": "اتصل بنا",
     "discover collection":"اكتشف مجموعتنا",
     "recent products":"احدث المنتجات",
-    "why choose us":"لماذا تختارنا"
+    "why choose us":"لماذا تختارنا",
+     "identity_confirmation": "تأكيد الهوية",
+     "restore_password":"استعادة كلمة المرور",
+     "change_password":"تغيير كلمة المرور"
   },
 "LABELS":{
+  "success_login":"مرحبًا! كل شيء جاهز، لحظات وسيتم نقلك للصفحة الرئيسية…",
+  "success_change":"كلمة مرورك الجديدة محفوظة، يمكنك تسجيل الدخول الآن",
+  "change_password":"احفظ كلمة المرور الجديدة جيدًا، وفي حال نسيانها يمكنك إعادة تعيينها بسهولة.",
+  "restore_password":"يرجي إدخال رقم الهاتف المكون من *** *** *** 47 حتي نتمكن من التحقق من هويتك",
+  "verification_code_prompt": "أرسلنا رمز تحقق مكون من 4 أرقام إلى أدناه، أدخل الأرقام الأربعة الموجودة في 47**** **** ****",
+  "gender_male":"ذكر",
+  "gender_female":"انثى",
+  "profile_picture":"الصورة الشخصية",
   "why_desc":"نقدّم سبائك ذهب وفضة استثمارية بجودة عالية وأمان تام، لأن ثقتك هي أولويتنا",
   "recent_desc":"اكتشف أحدث إضافاتنا من سبائك الذهب والفضة الاستثمارية عالية الجودة",
   "DISCOVER":{
@@ -80,10 +92,56 @@
   }
 },
 "BUTTONS":{
+  "confirm":"تأكيد",
+   "didnt_receive_code": "لم تستلم الكود؟",
+  "resend": "إعادة إرسال",
+  "send":"إرسال",
   "create account":"إنشاء حساب",
   "know more":"تعرف علينا",
   "start investing":"ابدأ استثمارك",
-  "see all products":"عرض جميع المنتجات"
+  "see all products":"عرض جميع المنتجات",
+  "login":"تسجيل دخول",
+  "forgot_password":"نسيت كلمة المرور?",
+  "continue":"المتابعة",
+  "back_to_login":"العودة إلى تسجيل الدخول"
+},
+"INPUTS":{
+  "enter_DOB":"أدخل تاريخ الميلاد",
+  "new_password":"كلمة المرور الجديدة",
+  "confirm_new_password":"تأكيد كلمة المرور الجديدة",
+  "enter_new_password":"أدخل كلمة المرور الجديدة",
+  "enter_confirm_password":"ادخل تاكيد كلمة المرور",
+  "username": "اسم المستخدم",
+  "enter_username":"أدخل اسم المستخدم",
+  "enter_email":"أدخل الإلكتروني",
+  "enter_password":"ادخل كلمة المرور",
+  "enter_phone":"أدخل رقم الجوال",
+  "full_name":"الاسم الكامل",
+  "email":" البريد الإلكتروني",
+  "phone":"رقم الجوال",
+  "password":"كلمة المرور", 
+  "confirm_password":"تأكيد كلمة المرور",
+  "country":"الدولة",
+  "gender":"الجنس",
+  "DOB":"تاريخ الميلاد"
+},
+"VALIDATION":{
+  "image_required":"الصورة مطلوبة",
+  "image_invalid":"صورة غير صالحة",
+  "password_required":"كلمة المرور مطلوبة",
+  "password_mismatch":"كلمتا المرور غير متطابقتان",
+  "phone_min":"يجب أن يكون رقم الجوال 6 أرقام على الأقل",
+  "phone_required":"رقم الجوال مطلوب",
+  "username_min":"يجب أن يكون اسم المستخدم 3 أحرف على الأقل",
+  "username_required":"اسم المستخدم مطلوب",
+  "required":"هذا الحقل مطلوب",
+  "email_required":"البريد الإلكتروني مطلوب",
+  "email_invalid":"عنوان البريد الإلكتروني غير صالح",
+  "password_min":"يجب أن تكون كلمة المرور 6 أحرف على الأقل",
+  
+  "invalid_phone":"رقم الجوال غير صالح",
+  "invalid_DOB":"تاريخ الميلاد غير صالح"
+  
 },
 "TOASTS":{}
 }

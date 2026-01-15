@@ -1,5 +1,5 @@
 <template>
-    <div class="space-y-26 mb-20">
+    <div class="space-y-10 md:space-y-20">
     <HomeBanner/>
     <HomeWhoUs/>
     <HomeDiscoverCollection/>

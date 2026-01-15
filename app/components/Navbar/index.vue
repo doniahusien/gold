@@ -1,7 +1,7 @@
 <template>
   <nav
-    class="fixed z-50 w-full bg-white transition-all duration-500 ease-in-out"
-    :class="isSticky ? 'top-0 translate-y-0 shadow-lg' : 'translate-y-12'"
+    class="sticky top-0 z-50 w-full bg-white transition-all duration-500 ease-in-out"
+    :class="isSticky && 'shadow-lg'"
   >
     <div class="container mx-auto px-5 md:px-0 flex items-center gap-9 py-2">
       <NuxtLink :to="localePath('/')">

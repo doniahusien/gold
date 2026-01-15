@@ -6,7 +6,7 @@ export default defineNuxtRouteMiddleware((to) => {
   const publicPaths = [
     '/auth/login',
     '/auth/signup',
-    '/auth/verify',
+   
     '/auth/forgot-pass',
     '/auth/change-pass',
   ]
@@ -27,10 +27,5 @@ export default defineNuxtRouteMiddleware((to) => {
     return navigateTo(localePath('/'))
   }
 
-    if (['/auth/verify', '/auth/change-pass'].includes(to.path)) {
-      const { tempVerifyData } = auth; 
-    if (!tempVerifyData || !tempVerifyData.phone) {
-      return navigateTo(localePath('/auth/login')); 
-    }
-  }
+   
 })

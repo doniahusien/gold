@@ -46,6 +46,7 @@
     "en": "AR"
   },
   "TITLES":{
+    "new":"New",
     "home":"Home",
     "gold alloys":"Gold Alloys",
     "silver alloys":"Silver Alloys",
@@ -53,9 +54,21 @@
     "contact us":"Contact Us",
     "discover collection":"Discover Collection",
     "recent products":"Recent Products",
-    "why choose us":"Why Choose Us"
+    "why choose us":"Why Choose Us",
+     "identity_confirmation": "Identity Confirmation",
+     
+  "restore_password":"Restore Password",
+  "change_password":"Change Password"
   },
 "LABELS":{
+  "success_login":"You have successfully logged in",
+  "success_change":"Your password has been successfully changed",
+  "change_password":"Please keep the new password safe, and in case you forget it, you can easily reset it.",
+  "restore_password":"Please enter your phone number: *** *** *** 47 to verify your identity",
+  "verification_code_prompt": "Please enter the 4 digits from the sent code 47**** **** ****",
+  "gender_male":"Male",
+  "gender_female":"Female",
+  "profile_picture":"Profile Picture",
   "why_desc":"We offer high-quality and fully secure investment gold and silver alloys, because your trust is our priority",
   "recent_desc":"Discover our latest additions of high-quality investment gold and silver alloys",
   "DISCOVER":{
@@ -80,10 +93,57 @@
   }
 },
 "BUTTONS":{
+  "didnt_receive_code": "Didn't receive the code?",
+  "resend": "Resend",
+  "send":"Send",
   "create account":"Create Account" ,
   "know more":"Know us",
   "start investing":"Start investment",
-  "see all products":"See All Products"
+  "see all products":"See All Products",
+  "login":"Login",
+  "forgot_password":"Forgot Password?",
+  "back_to_login":"Back to Login",
+  "continue":"Continue",
+  "confirm":"Confirm"
+},
+"INPUTS":{
+  "enter_DOB":"Enter Date of Birth",
+  "new_password":"New Password",
+  "confirm_new_password":"Confirm New Password",
+  "enter_new_password":"Enter New Password",
+  "enter_confirm_password":"Enter Confirm Password",
+  "username": "User Name",
+  "enter_username":"Enter user name",
+  "enter_email":"Enter your email",
+  "enter_password":"Enter your password",
+  "enter_full_name":"Enter your full name",
+  "enter_phone":"Enter phone number",
+  "full_name":"Full Name",
+  "email":"Email Address",
+  "phone":"Phone Number",
+  "password":"Password",
+  "confirm_password":"Confirm Password",
+  "country":"Country",
+  "gender":"Gender",
+  "DOB":"Date of Birth"
+},
+"VALIDATION":{
+  "code_required":"Code is required",
+  "image_required":"Image is required",
+  "image_invalid":"Invalid image format",
+  "password_required":"Password is required",
+  "password_mismatch":"Passwords do not match",
+  "phone_min":"Phone number must be at least 6 characters",
+  "phone_required":"Phone number is required",
+  "username_required":"Username is required",
+  "username_min":"Username must be at least 3 characters",
+  "required":"This field is required",
+  "email_required":"Email is required",
+  "email_invalid":"Invalid email address",
+  "password_min":"Password must be at least 6 characters",
+  "passwords_must_match":"Passwords must match",
+  "invalid_phone":"Invalid phone number",
+  "invalid_DOB":"Invalid date of birth"
 },
 "TOASTS":{}
 }
